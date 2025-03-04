@@ -44,4 +44,12 @@ border-radius: 5px;
 display: inline-block;
  }
 
+ #text-color{
+    color: chartreuse;
+ }
+ .wrapper{
+background-color: blue;
+width: 400px;
+margin: auto;
+ }
  

@@ -1,0 +1,121 @@
+/* Body font changed*/
+body {
+    font-family: sans-serif;
+   background-color: #aad4cf;
+   margin: 0;
+   padding: 0;
+}
+/* Changing header position*/
+header{
+    position: relative;
+    text-align: center;
+}
+/* Increasing header image width*/
+header img{
+width: 100%;
+}
+/* Text over header image*/
+
+header h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+/* using flex tag for navigation*/
+nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+/* Putting lines between navigation*/
+nav ul li{
+    padding: 5px 60px;
+    position:relative;
+}
+nav ul li:not(:last-child){
+    border-right: 2px solid black;
+}
+
+/* Making image float*/
+.floating-image{
+    float: left;
+    margin-right: 8px;
+    width: 180px;
+    padding: 10px;
+}
+/*footer*/
+footer{
+    text-align: right;
+  margin: 15px;
+  padding: 15px;
+}
+/*Facts about StarFish*/
+.facts{
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: disc;
+}
+/*Facts about StarFish*/
+.facts ul{
+    padding: 15px;
+}
+/* Setting margin*/
+.hello-form form label{
+    margin-top: 10px;
+}
+/* Padding for message box*/
+#message-box{
+    padding: 50px;
+    resize: vertical;
+}
+/* Removing underline from links and changing color*/
+a{
+    text-decoration: none;
+    color: #000000;
+}
+/* changing content with class*/
+.hello{
+    background-color: #d4e9e7;
+    width: 700px;
+    margin: auto;
+}
+/*Button*/
+.hello-button{
+    padding: 8px;
+    margin: 10px;
+}
+/* Button hover*/
+.hello-button:hover{
+    background: rgb(187, 255, 255);
+}
+/*Giving form a flex property*/
+form{
+    display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+/* Create border*/
+.outline{
+    border: 2px solid;
+    margin: 10px;
+}
+/*Changing margins and padding*/
+article h2{
+   padding: 10px;
+}
+#contact{
+    margin: 10px;
+}
+article p{
+    margin: 10px;
+}
+

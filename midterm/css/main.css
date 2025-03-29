@@ -97,7 +97,7 @@ a{
 .hello-button:hover{
     background: rgb(187, 255, 255);
 }
-/*Giving form a flex property*/
+/*Giving form a flex property*/ 
 form{
     display: flex;
   flex-direction: column;

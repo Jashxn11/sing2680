@@ -1,0 +1,81 @@
+/* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #222;
+  padding: 15px 30px;
+}
+
+/* Container for the whole nav */
+header > .navbar,
+.main-page header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Logo styling */
+.logo {
+  width: 120px;
+}
+
+/* nav + search bar together */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Navigation list */
+.list-section {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.list-section li a {
+  text-decoration: none;
+  color: #c78c06;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.list-section li a:hover {
+  color: white;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #222;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #c78c06;
+  border: white;
+}
